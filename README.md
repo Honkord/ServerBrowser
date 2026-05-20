@@ -1,7 +1,9 @@
+# PROJECT IS NOT YET OFFICIALLY COMPLETED
+
 Copyright (C) 2026 Honkord 
 # Server Browser (Top 3 Most Blindly-Dedicating-To-Wasting-My-Time Projects :P)
 
-<img src="./SignLogo.png" px="512x512"> 
+<img src="./SignLogo.png" px="256x256"> 
 <img src="./Intro_Wallpaper.png">
 
 Server Browser is an indie local proxy server designed for remote
