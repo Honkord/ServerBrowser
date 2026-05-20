@@ -1,0 +1,49 @@
+{
+  "zone": "server_browser.org",
+  "description": "Server Browser DNS phonebook — maps names under server_browser.org to browse targets",
+  "records": [
+    {
+      "name": "@",
+      "type": "A",
+      "target": "127.0.0.1",
+      "port": 8443,
+      "comment": "Registry root — local gateway"
+    },
+    {
+      "name": "portal",
+      "type": "ALIAS",
+      "target": "https://127.0.0.1:8443/",
+      "comment": "Application home"
+    },
+    {
+      "name": "www",
+      "type": "ALIAS",
+      "target": "https://www.google.com/",
+      "comment": "Google shortcut"
+    },
+    {
+      "name": "search",
+      "type": "ALIAS",
+      "target": "https://www.google.com/",
+      "comment": "Search entry"
+    },
+    {
+      "name": "example",
+      "type": "ALIAS",
+      "target": "https://example.com/",
+      "comment": "Example site"
+    },
+    {
+      "name": "wiki",
+      "type": "ALIAS",
+      "target": "https://www.wikipedia.org/",
+      "comment": "Wikipedia shortcut"
+    },
+    {
+      "name": "api",
+      "type": "CNAME",
+      "target": "portal.server_browser.org",
+      "comment": "API gateway alias"
+    }
+  ]
+}

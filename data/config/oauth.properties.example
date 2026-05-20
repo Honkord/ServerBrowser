@@ -1,0 +1,21 @@
+# Server Browser — OAuth / corporate sign-in
+# Copy to oauth.properties and fill in values from each provider's developer console.
+# Redirect URIs must match exactly (including https and port).
+
+# --- Google (https://console.cloud.google.com/apis/credentials) ---
+oauth.google.client_id=
+oauth.google.client_secret=
+oauth.google.redirect_uri=https://localhost:8443/api/auth/oauth/google/callback
+
+# --- Microsoft Entra ID (https://portal.azure.com/#view/Microsoft_AAD_RegisteredApps) ---
+oauth.microsoft.client_id=
+oauth.microsoft.client_secret=
+oauth.microsoft.tenant=common
+oauth.microsoft.redirect_uri=https://localhost:8443/api/auth/oauth/microsoft/callback
+
+# --- Apple (https://developer.apple.com/account/resources/identifiers) ---
+# For Sign in with Apple, client_secret is often a generated JWT — paste it here.
+oauth.apple.client_id=
+oauth.apple.client_secret=
+oauth.apple.team_id=
+oauth.apple.redirect_uri=https://localhost:8443/api/auth/oauth/apple/callback

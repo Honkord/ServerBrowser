@@ -1,0 +1,23 @@
+# Build
+build/
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+target/
+frontend/node_modules/
+frontend/dist/
+
+# Runtime data (keep schema/config seeds in git)
+data/db/*.db
+data/db/*.db-journal
+data/ssl/*.jks
+key.jks
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,11 @@
+# Server Browser local DNS phonebook (server_browser.org zone)
+# Install with: sudo ./scripts/install_phonebook_hosts.sh
+# Windows: copy these lines into C:\Windows\System32\drivers\etc\hosts as Administrator
+#
+127.0.0.1 server_browser.org
+127.0.0.1 portal.server_browser.org
+127.0.0.1 example.server_browser.org
+127.0.0.1 search.server_browser.org
+127.0.0.1 www.server_browser.org
+127.0.0.1 wiki.server_browser.org
+127.0.0.1 api.server_browser.org
