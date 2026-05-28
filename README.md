@@ -16,12 +16,9 @@ inadvertently wasted my time on this project because GoGuardian
 blocks the proxy server nevertheless saddly after all.
 
 ## Noticeable Gaps & Limitations 
-* The algorithm behind the "sign in" with corporation accounts
-  is lacking implementations.
+* I've never implemented the backend algorithm behind the "sign in" with corporation accounts.
 * Web page interfaces are far less appealing than the ones you
   visit through browsers.
-* You may seem random UTF-8 characters. They're part of media
-  files such as PNG. They are seen only beacuse that the server
-  fails to decode and load them. 
+* You may seem random UTF-8 characters. They're part of media files fetched from the webserver only because that the server fails to decode and load them. 
 * The domain name for the webserver fails to cooperate, so go to
-  the actual server by 'localhost'. 
+  the actual server by typing the address manually. 
